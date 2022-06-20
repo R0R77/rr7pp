@@ -44,7 +44,7 @@ async def spam_handler(_, m: Message):
 
 
 
-@app.on_message(gen("مكرر", allow = ["sudo"]))
+@app.on_message(gen(["مكرر", "مؤقت", "هاي"], allow = ["sudo"]))
 async def delayspam_handler(_, m: Message):
 	try:
 		reply = m.reply_to_message
