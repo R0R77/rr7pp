@@ -1,0 +1,75 @@
+{
+	"name": "bot",
+	"description": "none.",
+	"logo": "",
+	"keywords": [
+		"userbot",
+		"plugins",
+		"development",
+		"tools",
+		"pyrogram",
+		"productivity"
+	],
+	"repository": "https://github.com/R0R77/rr7pp/",
+	"website": "https://t.me/jmthon",
+	"success_url": "/welcome",
+	"env": {
+		"API_ID": {
+			"description": "ضع الايبي ايدي هنا",
+			"value": "",
+			"required": true
+		},
+		"API_HASH": {
+			"description": "ضع الايبي هاش هنا",
+			"value": "",
+			"required": true
+		},
+		"SESSION": {
+			"description": "ضع هنا بايروجرام سيشن",
+			"value": "",
+			"required": true
+		},
+		"PREFIX": {
+			"description": "لا تغيرها .",
+			"value": ".",
+			"required": true
+		},   
+		"HEROKU_API_KEY": {
+			"description": "هنا ضع الايبي كي الخاص بحسابك",
+			"value": "",
+			"required": true
+		},
+		"HEROKU_APP_NAME": {
+			"description": "هـنا ضع اسم التطبيق الخاص بـك اول اسم وضعته في الحقل الاول.",
+			"value": "",
+			"required": true
+		},
+		"TIME_ZONE": {
+			"description": "هـنا ضع المنطه الزمنيه الخاصه بك.",
+			"value": "Asia/Baghdad",
+			"required": true
+		},
+		"LOG_CHAT": {
+			"description": "هنا ضع ايدي مجموعتك الخاصه.",
+			"required": true
+		},
+		"TOKEN": {
+			"description": "هنا ضع توكن البوت الخاص بك.",
+			"required": true
+		}
+	},
+	"addons": [
+		{
+			"plan": "heroku-postgresql",
+			"options": {
+				"version": "12"
+			}
+		}
+	],
+	"buildpacks": [
+		{
+		"url": "heroku/python"
+		}
+	]
+}
+
