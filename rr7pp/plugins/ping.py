@@ -25,4 +25,4 @@ async def bot_ping(_, m: Message):
 		)
 		end = datetime.now()
 		ms = (end - start).microseconds / 1000
-		await msg.edit(f"**البنك**\n`{ms}`\n**الوقت**: `{mhd.uptime()}`"
+		await msg.edit(f"**البنك**\n`{ms}`\n**الوقت**: `{mhd.uptime()}`")
