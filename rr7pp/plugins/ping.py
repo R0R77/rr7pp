@@ -21,7 +21,7 @@ async def bot_ping(_, m: Message):
 		start = datetime.now()
 		msg = await mhd.bot.send_message(
 			m.chat.id,
-			"".  .  .""
+			".  .  ."
 		)
 		end = datetime.now()
 		ms = (end - start).microseconds / 1000
