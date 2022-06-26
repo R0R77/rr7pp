@@ -41,7 +41,7 @@ async def start_bot():
 	print(f"\n\n{modules} تم التثـبيت\n\n")
 	await start_assistant()
 	await start_userbot()
-	print("تم تنصيب سورس بايروجرام يوزربوت بنجاح ارسل")
+	print("تم تنصيب سورس بايروجرام يوزربوت بنجاح")
 	await idle()
 
 
